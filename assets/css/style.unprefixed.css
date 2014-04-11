@@ -79,6 +79,7 @@ body {
   padding-top: 8%;
   padding-bottom: 8%;
   text-align: center;
+  overflow: hidden;
 }
 
 #holdit {
@@ -92,6 +93,7 @@ body {
   text-align: center;
   width: 5.5em;
   float: left;
+  margin-top: 11em;
 }
 #icons ul {
   font-family: 'iconastik';
@@ -298,6 +300,87 @@ p {
   display: none;
 }
 
+@media screen and (orientation: portrait) {
+  .ycon {
+    margin-left: -39%;
+  }
+
+  #quero {
+    line-height: 1.2em;
+  }
+
+  #emailsignup {
+    width: 75%;
+    margin-left: 16%;
+  }
+
+  #namesignup {
+    width: 75%;
+    margin-left: 16%;
+  }
+
+  #btsign {
+    width: 59%;
+  }
+
+  #socialicons {
+    margin-top: 0.5em;
+  }
+
+  #holdit {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  #textos {
+    width: 100%;
+    margin: 0px;
+  }
+
+  #icons {
+    float: center;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2em;
+  }
+  #icons li {
+    margin-right: 0.24em;
+  }
+
+  #faqbt {
+    margin-right: 0px;
+  }
+
+  #titles {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 110%;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    line-height: 2em;
+    font-size: 2.5em;
+  }
+
+  #thanku {
+    font-family: 'Oswald Regular';
+    color: #fff;
+    font-size: 2.3em;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+  }
+}
+/* END PORTRAIT */
 @font-face {
   font-family: 'Oswald Bold';
   src: url("../fonts/oswald-bold-webfont.eot");
@@ -383,10 +466,35 @@ p {
   body {
     font-size: 12px;
   }
+
+  #holdit {
+    width: 100%;
+  }
+
+  #titles {
+    width: 110%;
+  }
+
+  #textos {
+    width: 89%;
+  }
 }
 @media only screen and (min-width: 1004px) {
   #vidholder {
     width: 853px;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  #holdit {
+    width: 1140px;
+  }
+
+  #titles {
+    width: auto;
+  }
+
+  #textos {
+    width: 852px;
   }
 }
 @media only screen and (min-width: 1140px) {

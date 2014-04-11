@@ -349,11 +349,11 @@ p {
     font-size: 2em;
   }
   #icons li {
-    margin-right: 0em;
+    margin-right: 0.1em;
   }
 
   #faqbt {
-    margin-right: 0px;
+    margin-right: 0px !important;
   }
 
   #titles {

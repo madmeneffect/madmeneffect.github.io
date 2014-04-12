@@ -51,6 +51,12 @@ body {
   position: absolute;
 }
 
+.escondido {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
 .header {
   width: 100%;
   position: relative;
@@ -71,12 +77,37 @@ body {
   border-bottom: solid 1px #aaa;
 }
 
+#language {
+  position: relative;
+  height: 0px;
+  text-align: center;
+  font-size: 4em;
+  z-index: 30;
+  font-family: 'Oswald Regular';
+}
+#language div {
+  color: #fff;
+  margin-top: -0.75em;
+  background-color: #9B2222;
+  width: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: -1px -1px #690D0D;
+}
+#language div a {
+  color: #fff;
+  text-decoration: none;
+}
+#language div a:hover {
+  color: #000;
+}
+
 .main {
   width: 100%;
   padding: 0px;
   position: relative;
   min-height: 34em;
-  padding-top: 8%;
+  padding-top: 11%;
   padding-bottom: 8%;
   text-align: center;
   overflow: hidden;
@@ -155,7 +186,6 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  display: none;
 }
 
 #lim9text {
@@ -164,10 +194,6 @@ body {
 
 #faqtext span {
   font-family: 'Oswald Regular';
-}
-
-.tytles {
-  display: none;
 }
 
 #lim9title {
@@ -301,6 +327,17 @@ p {
 }
 
 @media screen and (orientation: portrait) {
+  #language {
+    font-size: 3em;
+  }
+  #language div {
+    margin-top: 0.5em;
+  }
+
+  .main {
+    padding-top: 21%;
+  }
+
   .ycon {
     margin-left: -38%;
     font-size: 3em;

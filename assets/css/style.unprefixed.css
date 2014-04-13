@@ -79,7 +79,7 @@ body {
 
 #language {
   position: relative;
-  height: 0px;
+  height: 2.5em;
   text-align: center;
   font-size: 4em;
   z-index: 30;
@@ -107,7 +107,6 @@ body {
   padding: 0px;
   position: relative;
   min-height: 34em;
-  padding-top: 11%;
   padding-bottom: 8%;
   text-align: center;
   overflow: hidden;
